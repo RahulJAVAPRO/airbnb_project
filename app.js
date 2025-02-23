@@ -9,7 +9,7 @@ const cookieParser = require("cookie-parser");
 
 // const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust"; //mongo connect k liye url
 
-const dbUrl = process.env.ATLASDB_URL; // that is connect to cloud for hosting
+const dbUrl = process.env.ATLASDB_URI; // that is connect to cloud for hosting
 
 const methodeOverride = require("method-override");
 
